@@ -1,0 +1,37 @@
+{
+  "name": "ktn-deobfuscator-obscura",
+  "version": "1.0.0",
+  "description": "A powerful deobfuscator for JavaScript obfuscated by Obscura (KTN Obfuscator)",
+  "main": "deobf_obscura.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx deobf_obscura.ts"
+  },
+  "keywords": [
+    "deobfuscator",
+    "javascript-deobfuscator",
+    "obscura",
+    "ktn-obfuscator",
+    "reverse-engineering",
+    "obscura-js"
+  ],
+  "author": "KTN",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Swp-dev/Obscura-Deobfuscator"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.29.1",
+    "@babel/parser": "^7.29.3",
+    "@babel/traverse": "^7.29.0",
+    "@babel/types": "^7.29.0",
+    "chalk": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/node": "catalog:",
+    "tsx": "catalog:"
+  }
+}
